@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  align-items: center;
+
+}
+
+a {
+  color: black;
+}
+
+.headerContainer {
+
+  color: MediumAquamarine;
+  flex-grow: 1;
+
+}
+
+.headerNav {
+  display: inline-block;
+  padding: 20px 10px;
+
+}
