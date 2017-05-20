@@ -1,26 +1,50 @@
 header {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
   position: fixed;
+  width: 100%;
+  display: flex;
   align-items: center;
+  z-index: 100;
+  background-color: white;
+}
 
+.headerItems {
+  color: MediumAquamarine;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding: 10px 30px;
 }
 
 a {
   color: black;
 }
 
-.headerContainer {
-
-  color: MediumAquamarine;
-  flex-grow: 1;
-
+nav {
+  padding-right: 30px;
+  display: inline-flex;
+  justify-content: flex-end;
 }
 
-.headerNav {
-  display: inline-block;
+nav span {
   padding: 20px 10px;
+}
 
+.column {
+  display: flex;
+  border: 2px solid black;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
